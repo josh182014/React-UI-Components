@@ -1,1 +1,40 @@
 /* All styles for your header Components live here */
+
+.card-container {
+    display: flex;
+    /* border: 1px solid red; */
+    flex-wrap: wrap;
+}
+
+.header-container {
+    display: flex;
+    /* border: 1px solid green; */
+    flex-direction: column;
+    width: 90%;
+}
+
+.logodiv {
+    width: 60px;
+    /* border: 1px solid blue; */
+}
+
+.lambdalogo {
+    align-self: center;
+    width: 100%;
+}
+
+.headertitle {
+    display: flex;
+}
+
+.headertitle p {
+    margin: 0;
+    margin-left: 10px;
+}
+
+.headercontent {
+    width: 90%;
+    /* border: 1px solid yellow; */
+    margin: 0;
+    margin-left: 10px;
+}
