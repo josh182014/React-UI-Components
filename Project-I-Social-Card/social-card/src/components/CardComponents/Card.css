@@ -1,1 +1,24 @@
 /* All styles for your Card Components live here */
+
+.card-container {
+    margin-left: 11%;
+    width: 79%;
+    border: 1px solid lightgray;
+    border-radius: 10px;
+
+}
+
+.banner-img-container {
+    width: 100%;
+}
+
+.banner-img-container .bannerimg {
+    width: 100%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.card-content-container {
+    width: 100%;
+    margin: 5px;
+}

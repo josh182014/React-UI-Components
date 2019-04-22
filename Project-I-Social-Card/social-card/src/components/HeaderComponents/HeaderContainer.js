@@ -5,9 +5,9 @@ import ImageThumbnail from './ImageThumbnail';
 import HeaderTitle from './HeaderTitle';
 import HeaderContent from './HeaderContent';
 
-const CardContainer = () => {
+const HeaderContainer = () => {
     return (
-    <div className="card-container">
+    <div className="main-header-container">
         <ImageThumbnail />
         <div className='header-container'>
             <HeaderTitle />
@@ -18,4 +18,4 @@ const CardContainer = () => {
 };
 
 
-export default CardContainer;
+export default HeaderContainer;

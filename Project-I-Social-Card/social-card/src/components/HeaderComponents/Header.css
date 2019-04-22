@@ -1,6 +1,6 @@
 /* All styles for your header Components live here */
 
-.card-container {
+.main-header-container {
     display: flex;
     /* border: 1px solid red; */
     flex-wrap: wrap;
@@ -14,7 +14,7 @@
 }
 
 .logodiv {
-    width: 60px;
+    width: 9%;
     /* border: 1px solid blue; */
 }
 
@@ -27,9 +27,24 @@
     display: flex;
 }
 
+.headertitle .dot {
+    /* border: 1px solid black; */
+    border-radius: 100%;
+    width: 3px;
+    height: 3px;
+    background-color: gray;
+    align-self: center;
+    margin-left: 10px;
+}
+
 .headertitle p {
     margin: 0;
     margin-left: 10px;
+    color: gray;
+}
+
+.headertitle p strong {
+    color: black;
 }
 
 .headercontent {
