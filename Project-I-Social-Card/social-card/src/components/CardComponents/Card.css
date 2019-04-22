@@ -1,10 +1,16 @@
 /* All styles for your Card Components live here */
 
+.anchor {
+    text-decoration: none;
+    color: black;
+}
+
 .card-container {
     margin-left: 11%;
     width: 79%;
     border: 1px solid lightgray;
     border-radius: 10px;
+    /* cursor: pointer; */
 
 }
 
@@ -19,6 +25,12 @@
 }
 
 .card-content-container {
-    width: 100%;
+    width: 95%;
     margin: 5px;
+    margin-bottom: 0;
+}
+
+.last-content-p {
+    margin-bottom: 0px;
+    padding-bottom: 10px;
 }
