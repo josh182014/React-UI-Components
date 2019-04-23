@@ -1,1 +1,35 @@
 /* All styles for your Card Components live here */
+
+.anchor {
+    text-decoration: none;
+    color: black;
+}
+
+.card-container {
+    margin-left: 11%;
+    width: 78%;
+    border: 1px solid lightgray;
+    border-radius: 10px;
+
+}
+
+.banner-img-container {
+    width: 100%;
+}
+
+.banner-img-container .bannerimg {
+    width: 100%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.card-content-container {
+    width: 95%;
+    margin: 5px;
+    margin-bottom: 0;
+}
+
+.last-content-p {
+    margin-bottom: 0px;
+    padding-bottom: 10px;
+}

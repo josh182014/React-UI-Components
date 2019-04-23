@@ -1,1 +1,50 @@
 /* All styles for your header Components live here */
+
+.main-header-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.header-container {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+}
+
+.logodiv {
+    width: 9%;
+}
+
+.lambdalogo {
+    align-self: center;
+    width: 100%;
+}
+
+.headertitle {
+    display: flex;
+}
+
+.headertitle .dot {
+    border-radius: 100%;
+    width: 3px;
+    height: 3px;
+    background-color: gray;
+    align-self: center;
+    margin-left: 10px;
+}
+
+.headertitle p {
+    margin: 0;
+    margin-left: 10px;
+    color: gray;
+}
+
+.headertitle p strong {
+    color: black;
+}
+
+.headercontent {
+    width: 90%;
+    margin: 0;
+    margin-left: 10px;
+}
