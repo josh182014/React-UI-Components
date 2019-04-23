@@ -3,10 +3,10 @@ import './Button.css';
 
 const ActionButton = props => {
     return (
-        <div className='clear'>
-            <p>{props.actionProp.text}</p>
-        </div>
+      <div className='clear'>
+        {props.text}
+      </div>
     );
-};
+  };
 
 export default ActionButton;
