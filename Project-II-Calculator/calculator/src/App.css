@@ -1,0 +1,29 @@
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 410px;
+}
+.clear {
+    border: 1px solid gray;
+    width: 304px;
+    height: 100px;
+    font-size: 55px;
+    text-align: center;
+    line-height: 100px;
+}
+
+.display {
+    width: 388px;
+    height: 100px;
+    background: black;
+    color: white;
+    text-align: end;
+    font-size: 50px;
+    line-height: 100px;
+    padding-right: 20px;
+}
+
+.red {
+    background-color: darkred;
+    color: white;
+}
